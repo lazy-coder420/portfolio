@@ -28,7 +28,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             <nav className={`w-full fixed  top-0 px-5 lg:px-4 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? " bg-white bg-opacity-10 backdrop-blur-lg shadow-sm " : "" } dark:bg-[#11001F]`}>
                 <a href="#top">
                     {/* <img src={isDarkMode ? assets.logo_dark: assets.logo} className='w-28 cursor-pointer mr-14' /> */}
-                    <h2 className='w-28 cursor-pointer mr-14 font-bold text-4xl' >AbuHafs</h2>
+                    <h2 className=' cursor-pointer mr-14 font-bold text-4xl' >Lazy-coder</h2>
 
                 </a>
                 <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50"} dark:bg-[#11001F]`}>
